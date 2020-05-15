@@ -1,0 +1,264 @@
+
+.card-wrapper
+  display block
+  padding 20px
+  background-color #FFFFFF
+  border solid 1px #d5dde0
+  box-shadow 0 4px 8px rgba(0,0,0,.1)
+  border-radius 5px
+  &.card-content
+    padding-top 10px
+    margin-top 10px
+    min-height 300px
+  .card-title
+    position relative
+    height 40px
+    line-height 40px
+    font-size 16px
+    .el-button-group
+      position absolute
+      right 0
+      .el-button:not(.active)
+        color #409EFF
+        border-color #c6e2ff
+        background-color #ecf5ff
+    &::before
+      content ''
+      display inline-block
+      width 2px
+      height 20px
+      background-color #00c2de
+      vertical-align -5px
+      margin-right 10px
+  .card-container
+    .el-tabs__item
+      height: 36px;
+      line-height: 36px;
+    .el-form-item
+      margin-right 10px
+      text-align right
+      .el-radio
+        margin-top 12px
+      label
+        float left
+        width 120px
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        word-wrap: break-word;
+        word-break: break-all;
+        padding-right 0px !important
+      &.short-specail-item
+        width 370px
+        .el-select
+          width 285px
+      &.specail-item
+        width 500px
+        .el-select
+          width 400px
+.table
+  .serarch-input
+    width 15%
+    left: 85% 
+  table
+    .param-item
+      display block
+      padding 4px 4px
+      margin 0 0 5px 0
+      font-size 12px
+      border-radius 3px
+      background-color #F2F6FC
+      height 16px
+      line-height 16px
+      white-space nowrap
+      text-overflow ellipsis
+      overflow hidden
+      word-wrap break-word
+      word-break break-all
+    tr
+      .cell
+        max-height 115px
+        overflow auto !important
+        font-family 'Microsoft Yahei' !important
+        font-size 13px !important
+        button
+          span
+            font-family 'Microsoft Yahei' !important
+            font-size 10px !important
+    td 
+      padding 8px 0 !important
+      .operate-wrapper
+        display flex
+        justify-content space-around
+      .tableTail
+        button
+          margin-left 0px
+          font-size 10px
+          padding 4px 4px
+      .template-wrapper
+        margin-top 0px !important
+        div
+          background-color: #ecf5ff
+          display: inline-block
+          height: 32px
+          padding: 0 10px
+          line-height: 30px
+          font-size: 12px
+          color: #409eff
+          border: 1px solid #d9ecff
+          border-radius: 4px
+          box-sizing: border-box
+          white-space: nowrap
+          &.success
+            background-color #f0f9eb
+            border-color #e1f3d8
+            color #67c23a
+          &.info
+            background-color #f4f4f5
+            border-color #e9e9eb
+            color #909399
+          &.warning
+            background-color #fdf6ec
+            border-color #faecd8
+            color #e6a23c
+          &.danger
+            background-color #fef0f0
+            border-color #fde2e2
+            color #f56c6c
+
+.el-picker-panel.el-date-range-picker.el-popper.has-sidebar
+  left 50% !important
+  margin-left -440px !important
+
+.query-form
+  display flex
+  flex-wrap wrap 
+  >div
+    margin-top 10px !important
+  .el-form-item
+    width 32%
+    .el-form-item__content
+      width calc(100% - 120px)
+      float right
+      .el-date-editor
+        width 100%
+      .el-select 
+        width 100%
+      .query-button
+        float right
+.query-item
+  flex 1
+  .el-form-item__content
+    width 100% !important
+div.jsoneditor-tree
+  overflow hidden !important
+div.jsoneditor-menu 
+  background-color #4CAF50 !important
+  border-bottom 1px solid #4CAF50 !important
+div.jsoneditor 
+  min-height 300px
+  border 1px solid #4CAF50 !important
+div.jsoneditor-tree div.jsoneditor-tree-inner
+  padding-bottom 0px !important
+.m-error
+  border-color: #f56c6c
+  
+.guid-dialog, .customize-dialog
+  .el-form-item__content
+    margin-left 0px !important
+  .el-dialog__body
+    padding 10px 20px 20px 20px
+    td 
+      padding 0 !important
+    .is-disabled
+      .el-radio__input.is-checked+.el-radio__label
+        color rgba(64, 158, 255, 0.45) !important
+        cursor no-drop
+      .el-radio__input.is-checked .el-radio__inner
+        border-color rgba(64, 158, 255, 0.45)
+        background rgba(64, 158, 255, 0.45)
+        cursor no-drop
+    .dialog-button-group
+      display flex
+      align-items center
+      justify-content center
+    .auth
+      span
+        position absolute
+        width 40px
+        right 0px
+        text-align: center
+        color #409EFF
+
+
+.customize-dialog
+  height auto
+  tr
+    height 40px
+  .el-form-item
+    width 100%
+    margin-bottom 10px !important
+    .el-form-item__content
+      width calc(100% - 125px)
+      float right
+      >div
+        width 100%
+
+.dialog-param
+  max-height 200px
+  overflow auto
+  .dialog-param-item 
+    position relative
+    i
+      position absolute
+      right 0
+      top 13px
+      cursor pointer
+
+.has-norequire
+  label
+    margin-left 12px
+.link
+  color #409EFF
+  cursor pointer
+.no-link
+  color gray 
+  cursor no-drop
+.mv-danger
+  color #F56C6C
+  cursor no-drop
+
+.el-form-item__error
+  z-index 101
+.el-table__body-wrapper
+  overflow auto
+
+.el-button
+  padding: 8px 20px
+.export-wrapper
+  .el-button
+    padding: 6px 15px !important
+
+
+.el-form-item:not(.is-required)
+  label
+    margin-left 12px
+    padding-right 0px
+.el-form-item__label
+  text-align left
+
+.el-popconfirm
+  .el-popconfirm__action
+    margin-top 5px
+  button
+    padding 6px 12px
+    span
+      font-size 10px
+
+
+.label-wrapper
+  .el-form-item
+    display flex
+    label 
+      flex 1
+    .el-form-item__content
+      flex 6

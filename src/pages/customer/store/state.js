@@ -1,0 +1,23 @@
+const state = {
+  allCompanyList: [],
+  addNewCompanyFlag: false,
+  allCompanyListLength: 0,
+  allAccountList: [],
+  addNewAccountFlag: false,
+  allAccountListLength: 0,
+  productPriceDetailList: [],
+  productPriceDetailListLength: 0,
+  allProductList: [],
+  setChargeFlag: false,
+  changCreditFlag: false,
+  updateAlarmLineFlag: false,
+  setServiceFlag: false,
+  accountPriceRecordList: [],
+  accountPriceRecordListLength: 0,
+  cancelWaitPriceFlag: false,
+  creditRecordList: [],
+  creditRecordLength: 0,
+  rechargeRecordList: [],
+  rechargeRecordLength: 0,
+}
+export default state

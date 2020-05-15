@@ -1,0 +1,55 @@
+// 获取所有的部门
+export const GET_ALL_DEPAERMENT = 'GET_ALL_DEPAERMENT'
+// 新增部门
+export const ADD_NEW_DEPAERMENT = 'ADD_NEW_DEPAERMENT'
+// 删除部门
+export const DELETE_NEW_DEPAERMENT = 'DELETE_NEW_DEPAERMENT'
+
+// 获取所有的菜单
+export const GET_ALL_MEUN = 'GET_ALL_MEUN'
+
+// 获取标签
+export const GET_ALL_LABEL = 'GET_ALL_LABEL'
+export const GET_ALL_LABEL_LENGTH = 'GET_ALL_LABEL_LENGTH'
+export const ADD_NEW_LABEL = 'ADD_NEW_LABEL'
+
+// 角色
+export const GET_ALL_ROLE_LENGTH = 'GET_ALL_ROLE_LENGTH'
+export const GET_ALL_ROLE = 'GET_ALL_ROLE'
+export const ADD_NEW_ROLE = 'ADD_NEW_ROLE'
+export const BIND_MEUN = 'BIND_MEUN'
+export const HAS_BIND_MENU = 'HAS_BIND_MENU'
+export const DEFAULT_CHECKED_KEYS = 'DEFAULT_CHECKED_KEYS'
+
+// 属性
+export const GET_ALL_ATTRIBUTE_LENGTH = 'GET_ALL_ATTRIBUTE_LENGTH'
+export const GET_ALL_ATTRIBUTE = 'GET_ALL_ATTRIBUTE'
+export const ADD_NEW_ATTRIBUTE = 'ADD_NEW_ATTRIBUTE'
+
+// 用户
+export const GET_ALL_USERINFO_LENGTH = 'GET_ALL_USERINFO_LENGTH'
+export const GET_ALL_USERINFO = 'GET_ALL_USERINFO'
+export const ADD_NEW_USERINFO = 'ADD_NEW_USERINFO'
+export const CHANGE_ENABLE = 'CHANGE_ENABLE'
+export const REST_AUTH = 'REST_AUTH'
+
+// 菜单
+export const MEUN_TREE= 'MEUN_TREE'
+export const ADD_NEW_MEUN= 'ADD_NEW_MEUN'
+
+// 应用 application
+export const GET_ALL_APPLICATION_LENGTH = 'GET_ALL_APPLICATION_LENGTH'
+export const GET_ALL_APPLICATION = 'GET_ALL_APPLICATION'
+export const ADD_NEW_APPLICATION = 'ADD_NEW_APPLICATION'
+
+// 菜单
+// 获取菜单
+export const GET_SYSTEMMENU_AJAX_LIST = 'GET_SYSTEMMENU_AJAX_LIST'
+// 设置左侧激活状态菜单
+export const SET_ACTIVE_MEUN = 'SET_ACTIVE_MEUN'
+// 设置头部卡片
+export const SET_HEADER_TABS = 'SET_HEADER_TABS'
+// 设置头部卡片激活状态
+export const SET_ACTIVE_HEADER_TAB = 'SET_ACTIVE_HEADER_TAB'
+// 删除头部卡
+export const DELETE_HEADER_TAB = 'DELETE_HEADER_TAB'
