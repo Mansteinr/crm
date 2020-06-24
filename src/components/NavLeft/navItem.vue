@@ -14,6 +14,7 @@
       </template>
 
       <template v-for="child in item.children">
+        // <nav-item> 递归  引用组件自己
         <nav-item
           v-if="child.children && child.children.length>0"
           :item="child"
